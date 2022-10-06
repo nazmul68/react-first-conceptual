@@ -1,0 +1,27 @@
+.singlePlayer{
+    width: 350px;
+    height: 550px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 6px rgb(167, 164, 164);
+    border-radius: 8px;
+}
+
+.singlePlayer > .playerImage{
+    width: 350px;
+}
+.singlePlayer > .player-info{
+    padding: 20px;
+    margin-top: -40px;
+}
+.player-info > .button{
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: none;
+    margin: 0 15px 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
